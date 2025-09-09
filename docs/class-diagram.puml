@@ -1,2 +1,10 @@
 @startuml
+package "shared.domain.model" {
+    class Currency {
+        - _code: CurrencyCode
+        + code: string
+        + formatAmount(amount: number, locale: string): string
+        + toString(): string
+    }
+}
 @enduml
