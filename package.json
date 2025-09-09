@@ -1,0 +1,22 @@
+{
+  "name": "typescript-review",
+  "version": "1.0.0",
+  "description": "A TypeScript project to review concepts and principles of object-oriented programming with the domain-driven design approach.",
+  "author": "Open-Source Application Development Team",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "oop",
+    "ddd",
+    "sales"
+  ],
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
